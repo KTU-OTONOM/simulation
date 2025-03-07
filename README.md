@@ -37,6 +37,7 @@ git clone https://github.com/KTU-OTONOM/simulation.git
 src içerisindeki paketlerin bağımlılıklarını kurmamız gerekiyor
 ```bash
 cd ~/ros2_ws
+sudo apt-get install python3-rosdep
 sudo rosdep init
 rosdep update
 rosdep install --from-paths src -y --ignore-src
