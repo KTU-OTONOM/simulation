@@ -5,7 +5,7 @@
 
 ### GAZEBO CLASSIC KURULUMU
 
-Gazebo'yu aşağıdaki tek satırla kurabilirsiniz.
+Gazebo'yu aşağıdaki tek satırla kurabilirsiniz. Kuruluysa atlayabilirsiniz.
 
 ```bash
 curl -sSL http://get.gazebosim.org | sh
@@ -40,7 +40,7 @@ cd ~/ros2_ws
 sudo apt-get install python3-rosdep
 sudo rosdep init
 rosdep update
-rosdep install --from-paths src -y --ignore-src
+rosdep install --from-paths src/robotaksi_autonomous_car/robotaksi_classic src/simulation -y --ignore-src
 ```
 
 sonrasında ros2_ws içerisine girip kurabilirsiniz
@@ -49,6 +49,7 @@ sonrasında ros2_ws içerisine girip kurabilirsiniz
 sudo apt-get install python3-colcon-common-extensions
 colcon build --symlink-install --packages-select simulation robotaksi_classic
 echo "source $HOME/ros2_ws/install/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 ```
 
 simülasyonu çalıştırabilirsiniz
