@@ -46,7 +46,9 @@ rosdep install --from-paths src -y --ignore-src
 sonrasında ros2_ws içerisine girip kurabilirsiniz
 
 ```bash
+sudo apt-get install python3-colcon-common-extensions
 colcon build --symlink-install --packages-select simulation robotaksi_classic
+echo "source $HOME/ros2_ws/install/setup.bash" >> ~/.bashrc
 ```
 
 simülasyonu çalıştırabilirsiniz
