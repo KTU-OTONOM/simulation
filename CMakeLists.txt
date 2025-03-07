@@ -22,7 +22,7 @@ include_directories(include)
 include_directories(simulation)
 
 
-install (DIRECTORY launch models worlds simulation scripts config
+install (DIRECTORY launch models worlds simulation scripts
   DESTINATION share/${PROJECT_NAME}
 )
 
@@ -47,11 +47,7 @@ install(DIRECTORY
 
 install(PROGRAMS
   scripts/traffic_lights_service.py
-  scripts/camera_node.py
   scripts/control_node.py
-  scripts/robotaksi_surucu.py
-  scripts/camera_publisher.py
-  scripts/object_detection_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
