@@ -14,13 +14,10 @@ def generate_launch_description():
 
   pkg_share = FindPackageShare(package='simulation').find('simulation')
 
-  urdf_path = FindPackageShare(package='robotaksi_description').find('robotaksi_description')
+  urdf_path = FindPackageShare(package='robotaksi_classic').find('robotaksi_classic')
 
   world_file_name = 'ttfest_katot.world'
   world_path = os.path.join(pkg_share, 'worlds', world_file_name)
-
-  gazebo_models_path = os.path.join(pkg_share, 'models')
-  os.environ["GAZEBO_MODEL_PATH"] = gazebo_models_path
  
   headless = LaunchConfiguration('headless')
   use_sim_time = LaunchConfiguration('use_sim_time')

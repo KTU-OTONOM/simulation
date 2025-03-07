@@ -28,6 +28,23 @@ install (DIRECTORY launch models worlds simulation scripts config
 
 ament_python_install_package(${PROJECT_NAME})
 
+link_directories(
+  ${GAZEBO_LIBRARY_DIRS}
+)
+
+include_directories(
+  ${GAZEBO_INCLUDE_DIRS}
+)
+
+set(GAZEBO_MODEL_PATH $ENV{HOME}/.gazebo/)
+
+add_custom_target(COMMAND cmake -E make_directory ${GAZEBO_MODEL_PATH})
+
+install(DIRECTORY
+  models
+  DESTINATION ${GAZEBO_MODEL_PATH}
+)
+
 install(PROGRAMS
   scripts/traffic_lights_service.py
   scripts/camera_node.py

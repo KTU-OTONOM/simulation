@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/omer/ros2_ws/install/simulation/local/lib/python3.10/dist-packages",
+        "/home/omer/ros2_ws/install/my_robot/lib/python3.10/site-packages",
+        "/home/omer/ros2_ws/build/imu_publisher",
+        "/home/omer/ros2_ws/install/imu_publisher/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/omer/ros2_ws/install/simulation/local/lib/python3.10/dist-packages",
+        "/home/omer/ros2_ws/install/my_robot/lib/python3.10/site-packages",
+        "/home/omer/ros2_ws/build/imu_publisher",
+        "/home/omer/ros2_ws/install/imu_publisher/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
