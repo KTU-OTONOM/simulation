@@ -31,7 +31,7 @@ Sonrasında gerekli paketleri git kullanarak çekmeniz gerekiyor.
 ```bash
 cd ~/ros2_ws/src
 git clone https://github.com/Albaryan/robotaksi_autonomous_car.git
-git clone https://github.com/OTAGG/simulation_2025.git
+git clone https://github.com/KTU-OTONOM/simulation.git
 ```
 
 src içerisindeki paketlerin bağımlılıklarını kurmamız gerekiyor
