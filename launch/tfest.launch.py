@@ -14,7 +14,8 @@ def generate_launch_description():
 
   pkg_share = FindPackageShare(package='simulation').find('simulation')
 
-  urdf_path = FindPackageShare(package='robotaksi_classic').find('robotaksi_classic')
+  urdf_path = FindPackageShare(package='robotaksi_autonomous_car').find('robotaksi_autonomous_car')
+  urdf_path_ = os.path.join(urdf_path, 'urdf_classic/robotaksi.urdf.xacro')
 
   world_file_name = 'ttfest_katot.world'
   world_path = os.path.join(pkg_share, 'worlds', world_file_name)
@@ -72,7 +73,7 @@ def generate_launch_description():
 
 
 
-  urdf_path_ = os.path.join(urdf_path, 'urdf/robotaksi.urdf.xacro')
+  
 
   robot_state_publisher = Node(package='robot_state_publisher',
     executable='robot_state_publisher',
@@ -81,16 +82,7 @@ def generate_launch_description():
     parameters=[{'robot_description': Command(['xacro ', urdf_path_])}])
   
   
-  config_dir = os.path.join(pkg_share, 'config')
-  
-  madgwick_filter_node = Node(
-    package='imu_filter_madgwick',
-    executable='imu_filter_madgwick_node',
-    name='imu_filter',
-    output='screen',
-    parameters=[os.path.join(config_dir, 'imu.yaml')],
-  )
-  
+  config_dir = os.path.join(pkg_share, 'config')  
 
   gazebo_ros = Node(
     package='gazebo_ros',
