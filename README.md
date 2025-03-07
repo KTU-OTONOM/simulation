@@ -47,3 +47,8 @@ sonrasında ros2_ws içerisine girip kurabilirsiniz
 ```bash
 colcon build --symlink-install --packages-select simulation robotaksi_classic
 ```
+
+simülasyonu çalıştırabilirsiniz
+```bash
+ros2 launch simulation tfest.launch.py
+```
