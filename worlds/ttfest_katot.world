@@ -78,45 +78,6 @@
       </link>
       <pose>12.0157 2.94572 0 0 -0 0</pose>
     </model>
-    <model name='Obstacle Red'>
-      <static>1</static>
-      <link name='link'>
-        <pose>0 0 0 0 -0 0</pose>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://obstacle_red/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://obstacle_red/meshes/model.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose>28.4753 30.4233 0 0 -0 0</pose>
-    </model>
     <model name='Obstacle White'>
       <static>1</static>
       <link name='link'>
@@ -2774,16 +2735,6 @@
       <real_time>56 796178329</real_time>
       <wall_time>1730397818 152804241</wall_time>
       <iterations>54907</iterations>
-      <model name='Obstacle Red'>
-        <pose>47.6689 31.664 0 0 0 -1.5708</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>47.6689 31.664 0 0 0 -1.5708</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='Obstacle Red_clone'>
         <pose>43.6269 31.6281 0 0 0 -1.5708</pose>
         <scale>1 1 1</scale>
