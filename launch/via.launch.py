@@ -6,6 +6,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import Command, LaunchConfiguration, PythonExpression
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
+from launch_ros.descriptions import ParameterValue
  
 def generate_launch_description():
   
@@ -14,8 +15,8 @@ def generate_launch_description():
 
   pkg_share = FindPackageShare(package='simulation').find('simulation')
 
-  urdf_path = FindPackageShare(package='robotaksi_autonomous_car').find('robotaksi_autonomous_car')
-  urdf_path_ = os.path.join(urdf_path, 'urdf_classic/robotaksi.urdf.xacro')
+  urdf_path = FindPackageShare(package='via_description').find('via_description')
+  urdf_path_ = os.path.join(urdf_path, 'urdf/via.urdf.xacro')
 
   world_file_name = 'ttfest_katot.world'
   world_path = os.path.join(pkg_share, 'worlds', world_file_name)
@@ -70,16 +71,11 @@ def generate_launch_description():
   rviz2 = Node(package='rviz2', executable="rviz2",
                             name='rviz2',  output='screen')
   
-
-
-
-  
-
   robot_state_publisher = Node(package='robot_state_publisher',
     executable='robot_state_publisher',
     name='robot_state_publisher',
     output='screen', 
-    parameters=[{'robot_description': Command(['xacro ', urdf_path_])}])
+    parameters=[{'robot_description': ParameterValue(Command(['xacro ', urdf_path_]), value_type=str)}])
   
   
   config_dir = os.path.join(pkg_share, 'config')  
@@ -95,7 +91,7 @@ def generate_launch_description():
       '-z', '0.5',
       '-Y' ,'3.14',
       '-topic' , 'robot_description',
-      '-entity', 'robotaksi',
+      '-entity', 'via',
     ],
   )
 
