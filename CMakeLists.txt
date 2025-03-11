@@ -22,7 +22,7 @@ include_directories(include)
 include_directories(simulation)
 
 
-install (DIRECTORY launch models worlds simulation scripts
+install (DIRECTORY launch worlds simulation scripts
   DESTINATION share/${PROJECT_NAME}
 )
 

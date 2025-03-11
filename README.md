@@ -40,14 +40,14 @@ cd ~/ros2_ws
 sudo apt-get install python3-rosdep
 sudo rosdep init
 rosdep update
-rosdep install --from-paths src/robotaksi_autonomous_car/robotaksi_classic src/simulation -y --ignore-src
+rosdep install --from-paths src/robotaksi_autonomous_car/robotaksi_autonomous_car src/simulation -y --ignore-src
 ```
 
 sonrasında ros2_ws içerisine girip kurabilirsiniz
 
 ```bash
 sudo apt-get install python3-colcon-common-extensions
-colcon build --symlink-install --packages-select simulation robotaksi_classic
+colcon build --symlink-install --packages-select simulation robotaksi_autonomous_car
 echo "source $HOME/ros2_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```

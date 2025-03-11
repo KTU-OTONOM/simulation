@@ -26,7 +26,7 @@ class ControlNode(Node): #MODIFY NAME
         super().__init__("control_node") #MODIFY NAME
         
         
-        self.publisher_ = self.create_publisher(Twist, "/autocar/cmd_vel",10)
+        self.publisher_ = self.create_publisher(Twist, "/cmd_vel",10)
         msg=Twist()
               
         while True:
