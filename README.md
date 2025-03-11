@@ -41,7 +41,7 @@ cd ~/ros2_ws
 sudo apt-get install python3-rosdep
 sudo rosdep init
 rosdep update
-rosdep install --from-paths src/robotaksi_autonomous_car/robotaksi_autonomous_car src/simulation src/via_description -y --ignore-src
+rosdep install --from-paths src/robotaksi_autonomous_car src/simulation src/via_description -y --ignore-src
 ```
 
 sonrasında ros2_ws içerisine girip kurabilirsiniz
