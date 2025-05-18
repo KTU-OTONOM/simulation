@@ -95,6 +95,19 @@ def generate_launch_description():
     ],
   )
 
+  compressed_image_publisher = Node(
+        package='image_transport',
+        executable='republish',
+        arguments=[
+            'raw',
+            'compressed',
+            ],
+        remappings=[
+            ('/in', '/zed_cam/camera_sensor/image_raw'),
+            ('/out/compressed', '/camera_compressed'),
+        ]
+    )
+
 
   ld = LaunchDescription()
   
@@ -110,6 +123,7 @@ def generate_launch_description():
   ld.add_action(traffic_lights_service)
   ld.add_action(rviz2)
   ld.add_action(gazebo_ros)
+  ld.add_action(compressed_image_publisher)
 
   return ld
 
