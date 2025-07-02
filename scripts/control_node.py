@@ -10,11 +10,12 @@ msg = """
 Control RasCar!
 ---------------------------
 Moving around:
-        w
+        w    e
    a    s    d
         x
 
-space key, s : force stop
+s : force stop
+e : stop rotational movement
 
 CTRL-C to quit
 """
@@ -37,14 +38,22 @@ class ControlNode(Node): #MODIFY NAME
             if key=="w":
                 msg.linear.x+=0.1
             elif key=="a":
-                msg.angular.z+=0.1
+                if msg.linear.x> 0.0:
+                    msg.angular.z+=0.1
+                else:
+                    msg.angular.z-=0.1
             elif key=="s":
                 msg.linear.x=0.0
                 msg.angular.z=0.0
             elif key=="d":
-                msg.angular.z-=0.1
+                if msg.linear.x> 0.0:
+                    msg.angular.z-=0.1
+                else:
+                    msg.angular.z+=0.1
             elif key=="x":
                 msg.linear.x-=0.1
+            elif key=='e':
+                msg.angular.z=0.0
             else:
                 if key=="\x03":
                     break
