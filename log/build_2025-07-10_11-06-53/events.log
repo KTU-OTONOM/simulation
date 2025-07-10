@@ -1,0 +1,296 @@
+[0.000000] (-) TimerEvent: {}
+[0.000136] (dolly) JobQueued: {'identifier': 'dolly', 'dependencies': OrderedDict()}
+[0.000162] (simulation) JobQueued: {'identifier': 'simulation', 'dependencies': OrderedDict()}
+[0.000181] (dolly) JobStarted: {'identifier': 'dolly'}
+[0.003100] (simulation) JobStarted: {'identifier': 'simulation'}
+[0.005724] (dolly) JobProgress: {'identifier': 'dolly', 'progress': 'cmake'}
+[0.007271] (dolly) JobProgress: {'identifier': 'dolly', 'progress': 'build'}
+[0.007325] (dolly) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/beraa/ros2_ws/build/dolly', '--', '-j20', '-l20'], 'cwd': '/home/beraa/ros2_ws/build/dolly', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beraa'), ('LC_TIME', 'tr_TR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/beraa/ros2_ws/install/dolly/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2213'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=23b9780149c9a7a71722d981686f688b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/beraa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'beraa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/beraa/ros2_ws/install/dolly/lib/x86_64-linux-gnu/pkgconfig:/home/beraa/ros2_ws/install/dolly/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beraa-ASUS-TUF-Gaming-F15-FX507ZC4-FX507ZC4:@/tmp/.ICE-unix/2213,unix/beraa-ASUS-TUF-Gaming-F15-FX507ZC4-FX507ZC4:/tmp/.ICE-unix/2213'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19b92fc4_0821_42e6_86e3_831db9f726cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beraa/ros2_ws/build/dolly'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=23b9780149c9a7a71722d981686f688b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/beraa/ros2_ws/install/dolly')]), 'shell': False}
+[0.008200] (simulation) JobProgress: {'identifier': 'simulation', 'progress': 'cmake'}
+[0.008443] (simulation) Command: {'cmd': ['/usr/bin/cmake', '/home/beraa/ros2_ws/src/simulation', '-DCMAKE_INSTALL_PREFIX=/home/beraa/ros2_ws/install/simulation'], 'cwd': '/home/beraa/ros2_ws/build/simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beraa'), ('LC_TIME', 'tr_TR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/beraa/ros2_ws/install/dolly/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2213'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=23b9780149c9a7a71722d981686f688b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/beraa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'beraa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/beraa/ros2_ws/install/dolly/lib/x86_64-linux-gnu/pkgconfig:/home/beraa/ros2_ws/install/dolly/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beraa-ASUS-TUF-Gaming-F15-FX507ZC4-FX507ZC4:@/tmp/.ICE-unix/2213,unix/beraa-ASUS-TUF-Gaming-F15-FX507ZC4-FX507ZC4:/tmp/.ICE-unix/2213'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19b92fc4_0821_42e6_86e3_831db9f726cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beraa/ros2_ws/build/simulation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=23b9780149c9a7a71722d981686f688b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/beraa/ros2_ws/install/dolly')]), 'shell': False}
+[0.036466] (dolly) CommandEnded: {'returncode': 0}
+[0.037523] (dolly) JobProgress: {'identifier': 'dolly', 'progress': 'install'}
+[0.044856] (dolly) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/beraa/ros2_ws/build/dolly'], 'cwd': '/home/beraa/ros2_ws/build/dolly', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beraa'), ('LC_TIME', 'tr_TR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/beraa/ros2_ws/install/dolly/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2213'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=23b9780149c9a7a71722d981686f688b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/beraa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'beraa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/beraa/ros2_ws/install/dolly/lib/x86_64-linux-gnu/pkgconfig:/home/beraa/ros2_ws/install/dolly/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beraa-ASUS-TUF-Gaming-F15-FX507ZC4-FX507ZC4:@/tmp/.ICE-unix/2213,unix/beraa-ASUS-TUF-Gaming-F15-FX507ZC4-FX507ZC4:/tmp/.ICE-unix/2213'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19b92fc4_0821_42e6_86e3_831db9f726cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beraa/ros2_ws/build/dolly'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=23b9780149c9a7a71722d981686f688b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/beraa/ros2_ws/install/dolly')]), 'shell': False}
+[0.047102] (simulation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.050089] (dolly) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.050226] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/ament_index/resource_index/package_run_dependencies/dolly\n'}
+[0.050305] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/ament_index/resource_index/parent_prefix_path/dolly\n'}
+[0.050376] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/environment/ament_prefix_path.sh\n'}
+[0.050442] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/environment/ament_prefix_path.dsv\n'}
+[0.050506] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/environment/path.sh\n'}
+[0.050568] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/environment/path.dsv\n'}
+[0.050631] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/local_setup.bash\n'}
+[0.050692] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/local_setup.sh\n'}
+[0.050780] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/local_setup.zsh\n'}
+[0.050911] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/local_setup.dsv\n'}
+[0.050968] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/package.dsv\n'}
+[0.051027] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/ament_index/resource_index/packages/dolly\n'}
+[0.051081] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/cmake/dollyConfig.cmake\n'}
+[0.051137] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/cmake/dollyConfig-version.cmake\n'}
+[0.051195] (dolly) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/package.xml\n'}
+[0.051766] (dolly) CommandEnded: {'returncode': 0}
+[0.065290] (dolly) JobEnded: {'identifier': 'dolly', 'rc': 0}
+[0.082722] (simulation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.087237] (simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099595] (-) TimerEvent: {}
+[0.131529] (simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.138227] (simulation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.138295] (simulation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.138824] (simulation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.140794] (simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199231] (simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.199667] (-) TimerEvent: {}
+[0.203554] (simulation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.203654] (simulation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.203894] (simulation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.205095] (simulation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299790] (-) TimerEvent: {}
+[0.301774] (simulation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.348903] (simulation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.367686] (simulation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.369790] (simulation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.373619] (simulation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.379328] (simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.386874] (simulation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399892] (-) TimerEvent: {}
+[0.406950] (simulation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.407984] (simulation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.464576] (simulation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.487008] (simulation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.500014] (-) TimerEvent: {}
+[0.512436] (simulation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.518461] (simulation) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.580240] (simulation) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.580504] (simulation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.600181] (-) TimerEvent: {}
+[0.650390] (simulation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.651407] (simulation) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.680733] (simulation) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.700432] (-) TimerEvent: {}
+[0.762250] (simulation) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.764653] (simulation) StdoutLine: {'line': b'-- Generating done\n'}
+[0.765982] (simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/beraa/ros2_ws/build/simulation\n'}
+[0.771998] (simulation) CommandEnded: {'returncode': 0}
+[0.772476] (simulation) JobProgress: {'identifier': 'simulation', 'progress': 'build'}
+[0.772503] (simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/beraa/ros2_ws/build/simulation', '--', '-j20', '-l20'], 'cwd': '/home/beraa/ros2_ws/build/simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beraa'), ('LC_TIME', 'tr_TR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/beraa/ros2_ws/install/dolly/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2213'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=23b9780149c9a7a71722d981686f688b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/beraa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'beraa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/beraa/ros2_ws/install/dolly/lib/x86_64-linux-gnu/pkgconfig:/home/beraa/ros2_ws/install/dolly/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beraa-ASUS-TUF-Gaming-F15-FX507ZC4-FX507ZC4:@/tmp/.ICE-unix/2213,unix/beraa-ASUS-TUF-Gaming-F15-FX507ZC4-FX507ZC4:/tmp/.ICE-unix/2213'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19b92fc4_0821_42e6_86e3_831db9f726cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beraa/ros2_ws/build/simulation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=23b9780149c9a7a71722d981686f688b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/beraa/ros2_ws/install/dolly')]), 'shell': False}
+[0.800599] (-) TimerEvent: {}
+[0.826364] (simulation) StdoutLine: {'line': b'Built target ament_cmake_python_copy_simulation\n'}
+[0.900734] (-) TimerEvent: {}
+[0.947402] (simulation) StdoutLine: {'line': b'running egg_info\n'}
+[0.947747] (simulation) StdoutLine: {'line': b'creating simulation.egg-info\n'}
+[0.947876] (simulation) StdoutLine: {'line': b'writing simulation.egg-info/PKG-INFO\n'}
+[0.948021] (simulation) StdoutLine: {'line': b'writing dependency_links to simulation.egg-info/dependency_links.txt\n'}
+[0.948102] (simulation) StdoutLine: {'line': b'writing top-level names to simulation.egg-info/top_level.txt\n'}
+[0.948161] (simulation) StdoutLine: {'line': b"writing manifest file 'simulation.egg-info/SOURCES.txt'\n"}
+[0.948975] (simulation) StdoutLine: {'line': b"reading manifest file 'simulation.egg-info/SOURCES.txt'\n"}
+[0.949127] (simulation) StdoutLine: {'line': b"writing manifest file 'simulation.egg-info/SOURCES.txt'\n"}
+[0.964959] (simulation) StdoutLine: {'line': b'Built target ament_cmake_python_build_simulation_egg\n'}
+[0.972049] (simulation) CommandEnded: {'returncode': 0}
+[0.973122] (simulation) JobProgress: {'identifier': 'simulation', 'progress': 'install'}
+[0.973151] (simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/beraa/ros2_ws/build/simulation'], 'cwd': '/home/beraa/ros2_ws/build/simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'beraa'), ('LC_TIME', 'tr_TR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/beraa/ros2_ws/install/dolly/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/beraa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2213'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=23b9780149c9a7a71722d981686f688b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/beraa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'beraa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/beraa/ros2_ws/install/dolly/lib/x86_64-linux-gnu/pkgconfig:/home/beraa/ros2_ws/install/dolly/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'beraa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/beraa-ASUS-TUF-Gaming-F15-FX507ZC4-FX507ZC4:@/tmp/.ICE-unix/2213,unix/beraa-ASUS-TUF-Gaming-F15-FX507ZC4-FX507ZC4:/tmp/.ICE-unix/2213'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19b92fc4_0821_42e6_86e3_831db9f726cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '99'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/beraa/ros2_ws/build/simulation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=23b9780149c9a7a71722d981686f688b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/beraa/ros2_ws/install/dolly')]), 'shell': False}
+[0.977950] (simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.978063] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/launch\n'}
+[0.978130] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/launch/map.launch.py\n'}
+[0.978221] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/launch/robotaksi.launch.py\n'}
+[0.978287] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/launch/spawn_via.launch.py\n'}
+[0.978583] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/launch/via.launch.py\n'}
+[0.978657] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/worlds\n'}
+[0.978686] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/worlds/tfest_deneme.world\n'}
+[0.978712] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/worlds/ttfest_katot.world\n'}
+[0.978738] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/worlds/tfest_0.world\n'}
+[0.978792] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/simulation\n'}
+[0.978828] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/simulation/__init__.py\n'}
+[0.978855] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/scripts\n'}
+[0.978984] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/scripts/control_node.py\n'}
+[0.979069] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/scripts/camera_node.py\n'}
+[0.979102] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/scripts/traffic_lights_service.py\n'}
+[0.979131] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/meshes\n'}
+[0.979159] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/meshes/Lowpolyhuman.dae\n'}
+[0.979186] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/urdf\n'}
+[0.979216] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/urdf/dolly.urdf\n'}
+[0.979287] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/environment/pythonpath.sh\n'}
+[0.979317] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/environment/pythonpath.dsv\n'}
+[0.979363] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation-0.0.0-py3.10.egg-info\n'}
+[0.979390] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.979413] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.979436] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.979457] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.979479] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation\n'}
+[0.979501] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation/__init__.py\n'}
+[1.000909] (-) TimerEvent: {}
+[1.001262] (simulation) StdoutLine: {'line': b"Listing '/home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation'...\n"}
+[1.001334] (simulation) StdoutLine: {'line': b"Compiling '/home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation/__init__.py'...\n"}
+[1.004146] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models\n'}
+[1.004255] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_red\n'}
+[1.004295] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_red/model.sdf\n'}
+[1.004324] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_red/meshes\n'}
+[1.004350] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_red/meshes/model.dae\n'}
+[1.004376] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_red/model.config\n'}
+[1.004402] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_yellow\n'}
+[1.004425] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_yellow/model.sdf\n'}
+[1.004448] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_yellow/meshes\n'}
+[1.004612] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_yellow/meshes/model.dae\n'}
+[1.004659] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_yellow/model.config\n'}
+[1.004687] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_durak\n'}
+[1.004710] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_durak/model.sdf\n'}
+[1.004736] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_durak/meshes\n'}
+[1.004805] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_durak/meshes/model.dae\n'}
+[1.004832] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_durak/meshes/durak.png\n'}
+[1.004857] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_durak/model.config\n'}
+[1.004883] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/tunel_levhasi\n'}
+[1.004907] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/tunel_levhasi/model.sdf\n'}
+[1.004932] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/tunel_levhasi/meshes\n'}
+[1.004956] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/tunel_levhasi/meshes/tunellevhasi.dae\n'}
+[1.004979] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/tunel_levhasi/meshes/tunellevhasi.jpeg\n'}
+[1.005003] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/tunel_levhasi/model.config\n'}
+[1.005027] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_park\n'}
+[1.005051] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_park/model.sdf\n'}
+[1.005075] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_park/meshes\n'}
+[1.005100] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_park/meshes/park.png\n'}
+[1.005124] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_park/meshes/model.dae\n'}
+[1.005147] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_park/model.config\n'}
+[1.005170] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ilerisag\n'}
+[1.005194] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ilerisag/model.sdf\n'}
+[1.005225] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ilerisag/meshes\n'}
+[1.005251] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ilerisag/meshes/model.dae\n'}
+[1.005276] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ilerisag/meshes/ilerisag.png\n'}
+[1.005302] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ilerisag/model.config\n'}
+[1.005327] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sagadonulmez\n'}
+[1.005351] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sagadonulmez/model.sdf\n'}
+[1.005570] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sagadonulmez/meshes\n'}
+[1.005607] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sagadonulmez/meshes/model.dae\n'}
+[1.005635] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sagadonulmez/meshes/sagadonulmez.png\n'}
+[1.005662] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sagadonulmez/model.config\n'}
+[1.005712] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ileri\n'}
+[1.005737] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ileri/model.sdf\n'}
+[1.005763] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ileri/meshes\n'}
+[1.005790] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ileri/meshes/ileri.png\n'}
+[1.005816] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ileri/meshes/model.dae\n'}
+[1.005841] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ileri/model.config\n'}
+[1.005865] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_parkyasak\n'}
+[1.005889] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_parkyasak/model.sdf\n'}
+[1.005913] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_parkyasak/meshes\n'}
+[1.005937] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_parkyasak/meshes/model.dae\n'}
+[1.005960] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_parkyasak/meshes/parkyasak.png\n'}
+[1.005984] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_parkyasak/model.config\n'}
+[1.006007] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/tunnel\n'}
+[1.006030] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/tunnel/model.sdf\n'}
+[1.006053] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/tunnel/meshes\n'}
+[1.006077] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/tunnel/meshes/model.dae\n'}
+[1.006104] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/tunnel/model.config\n'}
+[1.006127] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/dolly\n'}
+[1.006151] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/dolly/meshes\n'}
+[1.006175] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/dolly/meshes/Lowpolyhuman.dae\n'}
+[1.006198] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ikiyon\n'}
+[1.006240] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ikiyon/model.sdf\n'}
+[1.006267] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ikiyon/meshes\n'}
+[1.006293] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ikiyon/meshes/ikiyon.png\n'}
+[1.006317] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ikiyon/meshes/model.dae\n'}
+[1.006342] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_ikiyon/model.config\n'}
+[1.006367] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sag\n'}
+[1.006391] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sag/model.sdf\n'}
+[1.006430] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sag/meshes\n'}
+[1.006454] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sag/meshes/sag.png\n'}
+[1.006477] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sag/meshes/model.dae\n'}
+[1.006504] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sag/model.config\n'}
+[1.006528] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_yaya\n'}
+[1.006551] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_yaya/model.sdf\n'}
+[1.006574] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_yaya/meshes\n'}
+[1.006597] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_yaya/meshes/model.dae\n'}
+[1.006621] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_yaya/meshes/yaya.png\n'}
+[1.006644] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_yaya/model.config\n'}
+[1.006667] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/kazi_calismasi\n'}
+[1.006689] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/kazi_calismasi/model.sdf\n'}
+[1.006711] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/kazi_calismasi/meshes\n'}
+[1.006758] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/kazi_calismasi/meshes/kazi_calismasi.dae\n'}
+[1.006811] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/kazi_calismasi/meshes/kazicalismasi.jpeg\n'}
+[1.006871] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/kazi_calismasi/model.config\n'}
+[1.006910] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_donel\n'}
+[1.006934] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_donel/model.sdf\n'}
+[1.006958] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_donel/meshes\n'}
+[1.006984] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_donel/meshes/model.dae\n'}
+[1.007011] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_donel/meshes/donel.png\n'}
+[1.007124] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_donel/model.config\n'}
+[1.007153] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/road\n'}
+[1.007181] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/road/model.sdf\n'}
+[1.007209] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/road/meshes\n'}
+[1.007238] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/road/meshes/road_full0.dae\n'}
+[1.007266] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/road/model.config\n'}
+[1.007295] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_parkyapilmaz\n'}
+[1.007324] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_parkyapilmaz/model.sdf\n'}
+[1.007352] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_parkyapilmaz/meshes\n'}
+[1.007379] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_parkyapilmaz/meshes/parkyapilmaz.png\n'}
+[1.007407] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_parkyapilmaz/meshes/model.dae\n'}
+[1.007434] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_parkyapilmaz/model.config\n'}
+[1.007461] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/obstacle_red\n'}
+[1.007488] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/obstacle_red/model.sdf\n'}
+[1.007517] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/obstacle_red/meshes\n'}
+[1.007542] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/obstacle_red/meshes/model.dae\n'}
+[1.007569] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/obstacle_red/model.config\n'}
+[1.007596] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sol\n'}
+[1.007622] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sol/model.sdf\n'}
+[1.007648] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sol/meshes\n'}
+[1.007675] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sol/meshes/sol.png\n'}
+[1.007701] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sol/meshes/model.dae\n'}
+[1.007728] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sol/model.config\n'}
+[1.007756] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_green\n'}
+[1.007785] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_green/model.sdf\n'}
+[1.007812] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_green/meshes\n'}
+[1.007839] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_green/meshes/model.dae\n'}
+[1.007865] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/traffic_light_green/model.config\n'}
+[1.007893] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sagamecburi\n'}
+[1.007919] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sagamecburi/model.sdf\n'}
+[1.007945] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sagamecburi/meshes\n'}
+[1.007971] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sagamecburi/meshes/model.dae\n'}
+[1.007999] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sagamecburi/meshes/sagamecburi.png\n'}
+[1.008027] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_sagamecburi/model.config\n'}
+[1.008053] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_soladonulmez\n'}
+[1.008080] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_soladonulmez/model.sdf\n'}
+[1.008106] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_soladonulmez/meshes\n'}
+[1.008133] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_soladonulmez/meshes/soladonulmez.png\n'}
+[1.008159] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_soladonulmez/meshes/model.dae\n'}
+[1.008187] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_soladonulmez/model.config\n'}
+[1.008219] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_engelli\n'}
+[1.008247] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_engelli/model.sdf\n'}
+[1.008275] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_engelli/meshes\n'}
+[1.008302] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_engelli/meshes/engelli.png\n'}
+[1.008329] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_engelli/meshes/model.dae\n'}
+[1.008355] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_engelli/model.config\n'}
+[1.008382] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_solamecburi\n'}
+[1.008409] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_solamecburi/model.sdf\n'}
+[1.008436] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_solamecburi/meshes\n'}
+[1.008462] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_solamecburi/meshes/model.dae\n'}
+[1.008489] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_solamecburi/meshes/solamecburi.png\n'}
+[1.008517] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_solamecburi/model.config\n'}
+[1.008543] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_girisyok\n'}
+[1.008570] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_girisyok/model.sdf\n'}
+[1.008597] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_girisyok/meshes\n'}
+[1.008624] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_girisyok/meshes/girisyok.png\n'}
+[1.008650] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_girisyok/meshes/model.dae\n'}
+[1.008676] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/sign_girisyok/model.config\n'}
+[1.008703] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/obstacle_white\n'}
+[1.008730] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/obstacle_white/model.sdf\n'}
+[1.008756] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/obstacle_white/meshes\n'}
+[1.008783] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/obstacle_white/meshes/model.dae\n'}
+[1.008809] (simulation) StdoutLine: {'line': b'-- Up-to-date: /home/beraa/.gazebo//models/obstacle_white/model.config\n'}
+[1.008835] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/lib/simulation/traffic_lights_service.py\n'}
+[1.008862] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/lib/simulation/control_node.py\n'}
+[1.008890] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/lib/simulation/camera_node.py\n'}
+[1.008916] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/ament_index/resource_index/package_run_dependencies/simulation\n'}
+[1.008944] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/ament_index/resource_index/parent_prefix_path/simulation\n'}
+[1.008971] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/environment/ament_prefix_path.sh\n'}
+[1.008997] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/environment/ament_prefix_path.dsv\n'}
+[1.009027] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/environment/path.sh\n'}
+[1.009055] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/environment/path.dsv\n'}
+[1.009083] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/local_setup.bash\n'}
+[1.009110] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/local_setup.sh\n'}
+[1.009137] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/local_setup.zsh\n'}
+[1.009164] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/local_setup.dsv\n'}
+[1.009192] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/package.dsv\n'}
+[1.009221] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/ament_index/resource_index/packages/simulation\n'}
+[1.009248] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/cmake/simulationConfig.cmake\n'}
+[1.009300] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/cmake/simulationConfig-version.cmake\n'}
+[1.009329] (simulation) StdoutLine: {'line': b'-- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/package.xml\n'}
+[1.009839] (simulation) CommandEnded: {'returncode': 0}
+[1.020731] (simulation) JobEnded: {'identifier': 'simulation', 'rc': 0}
+[1.021656] (-) EventReactorShutdown: {}

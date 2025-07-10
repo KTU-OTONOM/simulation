@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="basic_cube">
+
+  <!-- Parameters -->
+  <xacro:property name="base_length" value="0.551"/>
+  <xacro:property name="base_width" value="0.116"/>
+  <xacro:property name="base_height" value="1.74"/>
+  <xacro:property name="mass" value="1.0"/>
+
+  <!-- Inertia macro for a box -->
+  <xacro:macro name="box_inertia" params="m l w h xyz rpy">
+    <inertial>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+      <mass value="${m}"/>
+      <inertia 
+        ixx="${(m/12.0) * (h*h + w*w)}"
+        iyy="${(m/12.0) * (l*l + h*h)}"
+        izz="${(m/12.0) * (l*l + w*w)}"
+        ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </xacro:macro>
+
+  <link name="cube_link">
+
+    <!-- Visual: Blender bebek modeli -->
+    <visual>
+      <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://my_robot_description/meshes/Lowpolyhuman.dae" scale="1 1 1"/>
+      </geometry>
+      <material name="baby_material">
+        <color rgba="1 0.8 0.6 1"/>
+      </material>
+    </visual>
+
+    <!-- Collision: Basit küp -->
+    <collision>
+      <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0"/>
+      <geometry>
+        <box size="${base_length} ${base_width} ${base_height}"/>
+      </geometry>
+    </collision>
+
+    <!-- Inertia: Hesapla -->
+    <xacro:box_inertia m="${mass}" l="${base_length}" w="${base_width}" h="${base_height}" xyz="0 0 0" rpy="0 0 0"/>
+
+  </link>
+
+</robot>

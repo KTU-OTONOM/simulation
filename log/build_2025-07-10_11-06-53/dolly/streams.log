@@ -1,0 +1,20 @@
+[0.008s] Invoking command in '/home/beraa/ros2_ws/build/dolly': /usr/bin/cmake --build /home/beraa/ros2_ws/build/dolly -- -j20 -l20
+[0.036s] Invoked command in '/home/beraa/ros2_ws/build/dolly' returned '0': /usr/bin/cmake --build /home/beraa/ros2_ws/build/dolly -- -j20 -l20
+[0.045s] Invoking command in '/home/beraa/ros2_ws/build/dolly': /usr/bin/cmake --install /home/beraa/ros2_ws/build/dolly
+[0.050s] -- Install configuration: ""
+[0.050s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/ament_index/resource_index/package_run_dependencies/dolly
+[0.050s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/ament_index/resource_index/parent_prefix_path/dolly
+[0.050s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/environment/ament_prefix_path.sh
+[0.050s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/environment/ament_prefix_path.dsv
+[0.050s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/environment/path.sh
+[0.050s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/environment/path.dsv
+[0.050s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/local_setup.bash
+[0.051s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/local_setup.sh
+[0.051s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/local_setup.zsh
+[0.051s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/local_setup.dsv
+[0.051s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/package.dsv
+[0.051s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/ament_index/resource_index/packages/dolly
+[0.051s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/cmake/dollyConfig.cmake
+[0.051s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/cmake/dollyConfig-version.cmake
+[0.051s] -- Up-to-date: /home/beraa/ros2_ws/install/dolly/share/dolly/package.xml
+[0.052s] Invoked command in '/home/beraa/ros2_ws/build/dolly' returned '0': /usr/bin/cmake --install /home/beraa/ros2_ws/build/dolly

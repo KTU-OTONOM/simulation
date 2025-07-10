@@ -1,0 +1,9 @@
+/home/beraa/ros2_ws/build/dolly/CMakeFiles/uninstall.dir
+/home/beraa/ros2_ws/build/dolly/CMakeFiles/dolly_uninstall.dir
+/home/beraa/ros2_ws/build/dolly/CMakeFiles/test.dir
+/home/beraa/ros2_ws/build/dolly/CMakeFiles/edit_cache.dir
+/home/beraa/ros2_ws/build/dolly/CMakeFiles/rebuild_cache.dir
+/home/beraa/ros2_ws/build/dolly/CMakeFiles/list_install_components.dir
+/home/beraa/ros2_ws/build/dolly/CMakeFiles/install.dir
+/home/beraa/ros2_ws/build/dolly/CMakeFiles/install/local.dir
+/home/beraa/ros2_ws/build/dolly/CMakeFiles/install/strip.dir

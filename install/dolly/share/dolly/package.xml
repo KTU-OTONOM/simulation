@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dolly</name>
+  <version>0.0.1</version>
+  <description>Dolly robot model package</description>
+
+  <maintainer email="zeynepberraozyurek53@gmail.com">beraa</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+</package>
+

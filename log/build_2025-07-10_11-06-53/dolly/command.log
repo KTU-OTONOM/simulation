@@ -1,0 +1,4 @@
+Invoking command in '/home/beraa/ros2_ws/build/dolly': /usr/bin/cmake --build /home/beraa/ros2_ws/build/dolly -- -j20 -l20
+Invoked command in '/home/beraa/ros2_ws/build/dolly' returned '0': /usr/bin/cmake --build /home/beraa/ros2_ws/build/dolly -- -j20 -l20
+Invoking command in '/home/beraa/ros2_ws/build/dolly': /usr/bin/cmake --install /home/beraa/ros2_ws/build/dolly
+Invoked command in '/home/beraa/ros2_ws/build/dolly' returned '0': /usr/bin/cmake --install /home/beraa/ros2_ws/build/dolly

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dolly">
+
+  <xacro:property name="base_length" value="0.551" />
+  <xacro:property name="base_width" value="0.116" />
+  <xacro:property name="base_height" value="1.74" />
+  <xacro:property name="mass" value="10.0" />  <!-- Örnek kütle -->
+
+  <material name="Red">
+    <color rgba="1.0 0.0 0.0 1.0"/>
+  </material>    
+
+  <link name="base_link">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/beraa/ros2_ws/src/dolly/meshes/Lowpolyhuman.dae" scale="1 1 1" />
+      </geometry>
+      <material name="Red"/>
+    </visual>
+
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/beraa/ros2_ws/src/dolly/meshes/Lowpolyhuman.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+
+    <inertial>
+      <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0"/>
+      <mass value="${mass}" />
+      <inertia
+        ixx="${(1/12.0) * mass * (base_width*base_width + base_height*base_height)}"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="${(1/12.0) * mass * (base_length*base_length + base_height*base_height)}"
+        iyz="0.0"
+        izz="${(1/12.0) * mass * (base_length*base_length + base_width*base_width)}"
+      />
+    </inertial>
+
+  </link>  
+
+</robot>
+

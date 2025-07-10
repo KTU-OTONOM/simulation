@@ -1,0 +1,15 @@
+/home/beraa/ros2_ws/install/dolly/share/ament_index/resource_index/package_run_dependencies/dolly
+/home/beraa/ros2_ws/install/dolly/share/ament_index/resource_index/parent_prefix_path/dolly
+/home/beraa/ros2_ws/install/dolly/share/dolly/environment/ament_prefix_path.sh
+/home/beraa/ros2_ws/install/dolly/share/dolly/environment/ament_prefix_path.dsv
+/home/beraa/ros2_ws/install/dolly/share/dolly/environment/path.sh
+/home/beraa/ros2_ws/install/dolly/share/dolly/environment/path.dsv
+/home/beraa/ros2_ws/install/dolly/share/dolly/local_setup.bash
+/home/beraa/ros2_ws/install/dolly/share/dolly/local_setup.sh
+/home/beraa/ros2_ws/install/dolly/share/dolly/local_setup.zsh
+/home/beraa/ros2_ws/install/dolly/share/dolly/local_setup.dsv
+/home/beraa/ros2_ws/install/dolly/share/dolly/package.dsv
+/home/beraa/ros2_ws/install/dolly/share/ament_index/resource_index/packages/dolly
+/home/beraa/ros2_ws/install/dolly/share/dolly/cmake/dollyConfig.cmake
+/home/beraa/ros2_ws/install/dolly/share/dolly/cmake/dollyConfig-version.cmake
+/home/beraa/ros2_ws/install/dolly/share/dolly/package.xml

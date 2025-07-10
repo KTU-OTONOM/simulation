@@ -1,0 +1,252 @@
+[0.005s] Invoking command in '/home/beraa/ros2_ws/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/beraa/ros2_ws/src/simulation -DCMAKE_INSTALL_PREFIX=/home/beraa/ros2_ws/install/simulation
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.128s] -- Detecting C compiler ABI info - done
+[0.135s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.135s] -- Detecting C compile features
+[0.135s] -- Detecting C compile features - done
+[0.137s] -- Detecting CXX compiler ABI info
+[0.196s] -- Detecting CXX compiler ABI info - done
+[0.200s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.200s] -- Detecting CXX compile features
+[0.200s] -- Detecting CXX compile features - done
+[0.202s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.345s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.364s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.370s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.376s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.404s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.405s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.461s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.484s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.509s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.515s] -- Looking for pthread.h
+[0.577s] -- Looking for pthread.h - found
+[0.577s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.647s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.648s] -- Found Threads: TRUE  
+[0.677s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.759s] -- Configuring done
+[0.761s] -- Generating done
+[0.763s] -- Build files have been written to: /home/beraa/ros2_ws/build/simulation
+[0.769s] Invoked command in '/home/beraa/ros2_ws/build/simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/beraa/ros2_ws/src/simulation -DCMAKE_INSTALL_PREFIX=/home/beraa/ros2_ws/install/simulation
+[0.769s] Invoking command in '/home/beraa/ros2_ws/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/beraa/ros2_ws/build/simulation -- -j20 -l20
+[0.823s] Built target ament_cmake_python_copy_simulation
+[0.944s] running egg_info
+[0.944s] creating simulation.egg-info
+[0.944s] writing simulation.egg-info/PKG-INFO
+[0.945s] writing dependency_links to simulation.egg-info/dependency_links.txt
+[0.945s] writing top-level names to simulation.egg-info/top_level.txt
+[0.945s] writing manifest file 'simulation.egg-info/SOURCES.txt'
+[0.946s] reading manifest file 'simulation.egg-info/SOURCES.txt'
+[0.946s] writing manifest file 'simulation.egg-info/SOURCES.txt'
+[0.962s] Built target ament_cmake_python_build_simulation_egg
+[0.969s] Invoked command in '/home/beraa/ros2_ws/build/simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/beraa/ros2_ws/build/simulation -- -j20 -l20
+[0.970s] Invoking command in '/home/beraa/ros2_ws/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/beraa/ros2_ws/build/simulation
+[0.975s] -- Install configuration: ""
+[0.975s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/launch
+[0.975s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/launch/map.launch.py
+[0.975s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/launch/robotaksi.launch.py
+[0.975s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/launch/spawn_via.launch.py
+[0.975s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/launch/via.launch.py
+[0.975s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/worlds
+[0.975s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/worlds/tfest_deneme.world
+[0.975s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/worlds/ttfest_katot.world
+[0.975s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/worlds/tfest_0.world
+[0.975s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/simulation
+[0.975s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/simulation/__init__.py
+[0.975s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/scripts
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/scripts/control_node.py
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/scripts/camera_node.py
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/scripts/traffic_lights_service.py
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/meshes
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/meshes/Lowpolyhuman.dae
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/urdf
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/urdf/dolly.urdf
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/environment/pythonpath.sh
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/environment/pythonpath.dsv
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation-0.0.0-py3.10.egg-info
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation-0.0.0-py3.10.egg-info/PKG-INFO
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation-0.0.0-py3.10.egg-info/top_level.txt
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation
+[0.976s] -- Installing: /home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation/__init__.py
+[0.998s] Listing '/home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation'...
+[0.998s] Compiling '/home/beraa/ros2_ws/install/simulation/local/lib/python3.10/dist-packages/simulation/__init__.py'...
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_red
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_red/model.sdf
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_red/meshes
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_red/meshes/model.dae
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_red/model.config
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_yellow
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_yellow/model.sdf
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_yellow/meshes
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_yellow/meshes/model.dae
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_yellow/model.config
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/sign_durak
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/sign_durak/model.sdf
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/sign_durak/meshes
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/sign_durak/meshes/model.dae
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/sign_durak/meshes/durak.png
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/sign_durak/model.config
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/tunel_levhasi
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/tunel_levhasi/model.sdf
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/tunel_levhasi/meshes
+[1.001s] -- Up-to-date: /home/beraa/.gazebo//models/tunel_levhasi/meshes/tunellevhasi.dae
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/tunel_levhasi/meshes/tunellevhasi.jpeg
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/tunel_levhasi/model.config
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_park
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_park/model.sdf
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_park/meshes
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_park/meshes/park.png
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_park/meshes/model.dae
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_park/model.config
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ilerisag
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ilerisag/model.sdf
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ilerisag/meshes
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ilerisag/meshes/model.dae
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ilerisag/meshes/ilerisag.png
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ilerisag/model.config
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sagadonulmez
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sagadonulmez/model.sdf
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sagadonulmez/meshes
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sagadonulmez/meshes/model.dae
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sagadonulmez/meshes/sagadonulmez.png
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sagadonulmez/model.config
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ileri
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ileri/model.sdf
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ileri/meshes
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ileri/meshes/ileri.png
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ileri/meshes/model.dae
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ileri/model.config
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_parkyasak
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_parkyasak/model.sdf
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_parkyasak/meshes
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_parkyasak/meshes/model.dae
+[1.002s] -- Up-to-date: /home/beraa/.gazebo//models/sign_parkyasak/meshes/parkyasak.png
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_parkyasak/model.config
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/tunnel
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/tunnel/model.sdf
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/tunnel/meshes
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/tunnel/meshes/model.dae
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/tunnel/model.config
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/dolly
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/dolly/meshes
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/dolly/meshes/Lowpolyhuman.dae
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ikiyon
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ikiyon/model.sdf
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ikiyon/meshes
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ikiyon/meshes/ikiyon.png
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ikiyon/meshes/model.dae
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_ikiyon/model.config
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sag
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sag/model.sdf
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sag/meshes
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sag/meshes/sag.png
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sag/meshes/model.dae
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sag/model.config
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_yaya
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_yaya/model.sdf
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_yaya/meshes
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_yaya/meshes/model.dae
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_yaya/meshes/yaya.png
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_yaya/model.config
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/kazi_calismasi
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/kazi_calismasi/model.sdf
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/kazi_calismasi/meshes
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/kazi_calismasi/meshes/kazi_calismasi.dae
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/kazi_calismasi/meshes/kazicalismasi.jpeg
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/kazi_calismasi/model.config
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_donel
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_donel/model.sdf
+[1.003s] -- Up-to-date: /home/beraa/.gazebo//models/sign_donel/meshes
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_donel/meshes/model.dae
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_donel/meshes/donel.png
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_donel/model.config
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/road
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/road/model.sdf
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/road/meshes
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/road/meshes/road_full0.dae
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/road/model.config
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_parkyapilmaz
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_parkyapilmaz/model.sdf
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_parkyapilmaz/meshes
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_parkyapilmaz/meshes/parkyapilmaz.png
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_parkyapilmaz/meshes/model.dae
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_parkyapilmaz/model.config
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/obstacle_red
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/obstacle_red/model.sdf
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/obstacle_red/meshes
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/obstacle_red/meshes/model.dae
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/obstacle_red/model.config
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sol
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sol/model.sdf
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sol/meshes
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sol/meshes/sol.png
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sol/meshes/model.dae
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sol/model.config
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_green
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_green/model.sdf
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_green/meshes
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_green/meshes/model.dae
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/traffic_light_green/model.config
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sagamecburi
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sagamecburi/model.sdf
+[1.004s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sagamecburi/meshes
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sagamecburi/meshes/model.dae
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sagamecburi/meshes/sagamecburi.png
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_sagamecburi/model.config
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_soladonulmez
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_soladonulmez/model.sdf
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_soladonulmez/meshes
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_soladonulmez/meshes/soladonulmez.png
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_soladonulmez/meshes/model.dae
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_soladonulmez/model.config
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_engelli
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_engelli/model.sdf
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_engelli/meshes
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_engelli/meshes/engelli.png
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_engelli/meshes/model.dae
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_engelli/model.config
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_solamecburi
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_solamecburi/model.sdf
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_solamecburi/meshes
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_solamecburi/meshes/model.dae
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_solamecburi/meshes/solamecburi.png
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_solamecburi/model.config
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_girisyok
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_girisyok/model.sdf
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_girisyok/meshes
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_girisyok/meshes/girisyok.png
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_girisyok/meshes/model.dae
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/sign_girisyok/model.config
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/obstacle_white
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/obstacle_white/model.sdf
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/obstacle_white/meshes
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/obstacle_white/meshes/model.dae
+[1.005s] -- Up-to-date: /home/beraa/.gazebo//models/obstacle_white/model.config
+[1.005s] -- Installing: /home/beraa/ros2_ws/install/simulation/lib/simulation/traffic_lights_service.py
+[1.005s] -- Installing: /home/beraa/ros2_ws/install/simulation/lib/simulation/control_node.py
+[1.005s] -- Installing: /home/beraa/ros2_ws/install/simulation/lib/simulation/camera_node.py
+[1.005s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/ament_index/resource_index/package_run_dependencies/simulation
+[1.005s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/ament_index/resource_index/parent_prefix_path/simulation
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/environment/ament_prefix_path.sh
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/environment/ament_prefix_path.dsv
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/environment/path.sh
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/environment/path.dsv
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/local_setup.bash
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/local_setup.sh
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/local_setup.zsh
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/local_setup.dsv
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/package.dsv
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/ament_index/resource_index/packages/simulation
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/cmake/simulationConfig.cmake
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/cmake/simulationConfig-version.cmake
+[1.006s] -- Installing: /home/beraa/ros2_ws/install/simulation/share/simulation/package.xml
+[1.006s] Invoked command in '/home/beraa/ros2_ws/build/simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/beraa/ros2_ws/build/simulation
