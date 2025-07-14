@@ -38,26 +38,7 @@
         izz="${(1/12.0) * mass * (base_length*base_length + base_width*base_width)}"
       />
     </inertial>
+
   </link>  
 
-  <!-- Planar Move Plugin -->
-  <gazebo>
-    <plugin name="planar_move" filename="libgazebo_ros_planar_move.so">
-      <robotNamespace>/</robotNamespace>
-      <bodyName>base_link</bodyName>
-      <xyzOnly>true</xyzOnly> <!-- sadece düzlemde hareket için -->
-    </plugin>
-    <mu1>1.0</mu1>        <!-- Sürtünme -->
-    <mu2>1.0</mu2>
-    <kp>100000</kp>       <!-- Yay sertliği -->
-    <kd>1</kd>            <!-- Sönümleme -->
-    <cfm>0</cfm>
-  </gazebo>
-  
-  <gazebo reference="base_link">
-      <gravity>0</gravity>            <!-- (alternatif: <turnGravityOff>true</turnGravityOff>) -->
-  </gazebo>
-
-
 </robot>
-

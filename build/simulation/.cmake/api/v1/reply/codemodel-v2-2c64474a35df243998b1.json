@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a3bdca952b3e9affe81e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "simulation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "COMMAND::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-COMMAND-0b1b1cd24d5076aa1077.json",
+					"name" : "COMMAND",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_simulation_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_simulation_egg-438b0eac5e4d89267d37.json",
+					"name" : "ament_cmake_python_build_simulation_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_simulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_simulation-323b0e465d726e117500.json",
+					"name" : "ament_cmake_python_copy_simulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simulation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simulation_uninstall-487aa3d6ebc374f584cb.json",
+					"name" : "simulation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dceb58f7e08c9ef93106.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/beraa/simulation/build/simulation",
+		"source" : "/home/beraa/simulation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
