@@ -2,11 +2,6 @@
 <sdf version="1.6">
   <world name="default">
 
-    <!-- Zemin -->
-    <include>
-      <uri>model://ground_plane</uri>
-    </include>
-
     <!-- Varsayılan güneş ışığı -->
     <include>
       <uri>model://sun</uri>
@@ -54,4 +49,3 @@
 
   </world>
 </sdf>
-

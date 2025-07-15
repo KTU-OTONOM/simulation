@@ -14,7 +14,7 @@ def generate_launch_description():
 
   pkg_share = FindPackageShare(package='simulation').find('simulation')
 
-  world_file_name = 'ttfest_katot.world'
+  world_file_name = 'new_world.world'
   world_path = os.path.join(pkg_share, 'worlds', world_file_name)
  
   headless = LaunchConfiguration('headless')
