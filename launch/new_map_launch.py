@@ -8,8 +8,7 @@ def generate_launch_description():
         'ros2_ws',
         'src',
         'simulation',
-        'models',
-        'new_map',
+        'worlds',
         'new_world.world'
     )
 
