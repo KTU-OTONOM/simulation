@@ -25,6 +25,26 @@
         </clouds>
       </sky>
     </scene>
+    
+    <scene>
+      <ambient>0.5 0.5 1</ambient>
+    </scene>
+ 
+ 
+    <light type="directional" name="sun_light">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.5 -1</direction>
+    </light>
+
 
     <!-- Güneş ışığı -->
     <light type="directional" name="custom_sun">
