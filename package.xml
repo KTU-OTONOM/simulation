@@ -17,6 +17,12 @@
   <depend>robotaksi_autonomous_car</depend>
   <depend>via_description</depend>
 
+  <build_depend>launch</build_depend>
+  <build_depend>launch_ros</build_depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
@@ -25,3 +31,4 @@
     <gazebo_ros gazebo_model_path="${prefix}/../"/>
   </export>
 </package>
+
