@@ -18,6 +18,12 @@ find_package(rclpy REQUIRED)
 
 include_directories(include)
 include_directories(simulation)
+install(DIRECTORY
+  models/new_map/meshes
+  DESTINATION share/${PROJECT_NAME}/models/new_map
+)
+
+
 
 # Tek satırda gerekli klasörleri yükle
 install(DIRECTORY launch worlds scripts meshes urdf models

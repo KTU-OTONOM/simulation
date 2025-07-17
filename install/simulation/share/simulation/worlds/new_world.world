@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+
+    <!-- Varsayılan güneş ışığı -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Sis -->
+    <fog>
+      <color>0.7 0.7 0.8 1</color>
+      <linear_dropout>0.01</linear_dropout>
+      <linear_start>10</linear_start>
+      <linear_end>50</linear_end>
+      <type>linear</type>
+    </fog>
+
+    <!-- Ortam ışığı -->
+    <scene>
+      <ambient>0.7 0.7 0.7 1</ambient>  <!-- biraz daha açık, ama nötr -->
+      <sky>
+        <clouds>
+          <speed>12</speed>
+        </clouds>
+      </sky>
+    </scene>
+
+    <!-- Güneş ışığı -->
+    <light type="directional" name="custom_sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.5 -1</direction>
+    </light>
+
+    <!-- Harita -->
+    <include>
+      <uri>model://new_map</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>

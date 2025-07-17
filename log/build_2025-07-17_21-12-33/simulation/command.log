@@ -1,0 +1,4 @@
+Invoking command in '/home/beraa/ros2_ws/src/simulation/build/simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/beraa/ros2_ws/src/simulation/build/simulation -- -j20 -l20
+Invoked command in '/home/beraa/ros2_ws/src/simulation/build/simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/beraa/ros2_ws/src/simulation/build/simulation -- -j20 -l20
+Invoking command in '/home/beraa/ros2_ws/src/simulation/build/simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/beraa/ros2_ws/src/simulation/build/simulation
+Invoked command in '/home/beraa/ros2_ws/src/simulation/build/simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/beraa/ros2_ws/src/simulation/build/simulation
