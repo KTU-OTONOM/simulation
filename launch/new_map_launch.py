@@ -16,7 +16,7 @@ def generate_launch_description():
         Node(
             package='gazebo_ros',
             executable='gzserver',
-            arguments=['--verbose', world_path],
+            arguments=['--verbose', world_path, '-s', 'libgazebo_ros_factory.so'],
             output='screen'
         ),
         Node(
@@ -25,4 +25,6 @@ def generate_launch_description():
             output='screen'
         )
     ])
+
+
 

@@ -7,6 +7,9 @@
       <uri>model://sun</uri>
     </include>
 
+    <!-- Gerekli ROS plugin -->
+    <plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so"/>
+
     <!-- Sis -->
     <fog>
       <color>0.7 0.7 0.8 1</color>
@@ -49,3 +52,4 @@
 
   </world>
 </sdf>
+

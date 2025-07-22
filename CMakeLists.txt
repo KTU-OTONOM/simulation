@@ -23,6 +23,9 @@ install(DIRECTORY
   DESTINATION share/${PROJECT_NAME}/models/new_map
 )
 
+install(DIRECTORY launch/
+  DESTINATION share/${PROJECT_NAME}/launch
+)
 
 
 # Tek satırda gerekli klasörleri yükle
