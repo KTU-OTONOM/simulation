@@ -86,9 +86,9 @@ def generate_launch_description():
     name='gazebo_ros',
     output='screen',
     arguments=[
-      '-x','29.0' ,
-      '-y' ,'29.25' ,
-      '-z', '0.5',
+      '-x','22.0' ,
+      '-y' ,'28.7' ,
+      '-z', '0.05',
       '-Y' ,'3.14',
       '-topic' , 'robot_description',
       '-entity', 'via',
@@ -120,10 +120,10 @@ def generate_launch_description():
  
   ld.add_action(start_gazebo_server_cmd)
   ld.add_action(start_gazebo_client_cmd)
-  ld.add_action(traffic_lights_service)
+  # ld.add_action(traffic_lights_service)
   #ld.add_action(rviz2)
   ld.add_action(gazebo_ros)
-  ld.add_action(compressed_image_publisher)
+  # ld.add_action(compressed_image_publisher)
 
   return ld
 
