@@ -30,7 +30,6 @@ Sonrasında gerekli paketleri git kullanarak çekmeniz gerekiyor.
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/Albaryan/robotaksi_autonomous_car.git
 git clone https://github.com/KTU-OTONOM/simulation.git
 git clone https://github.com/KTU-OTONOM/via_description.git
 ```
@@ -41,21 +40,22 @@ cd ~/ros2_ws
 sudo apt-get install python3-rosdep
 sudo rosdep init
 rosdep update
-rosdep install --from-paths src/robotaksi_autonomous_car src/simulation src/via_description -y --ignore-src
+rosdep install --from-paths src/simulation src/via_description -y --ignore-src
 ```
 
 sonrasında ros2_ws içerisine girip kurabilirsiniz
 
 ```bash
 sudo apt-get install python3-colcon-common-extensions
-colcon build --symlink-install --packages-select simulation robotaksi_autonomous_car via_description
+colcon build --symlink-install --packages-select simulation via_description
 echo "source $HOME/ros2_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
 simülasyonu 3 komutun biriyle çalıştırabilirsiniz
 ```bash
-ros2 launch simulation robotaksi.launch.py
-ros2 launch simulation via.launch.py
+ros2 launch simulation via_launch.py
+ros2 launch simulation ilkel_harita_launch.py
 ros2 launch simulation map.launch.py
+ros2 launch simulation new_map.launch.py
 ```
