@@ -18,7 +18,7 @@ def generate_launch_description():
   urdf_path = FindPackageShare(package='via_description').find('via_description')
   urdf_path_ = os.path.join(urdf_path, 'urdf/via.urdf.xacro')
 
-  world_file_name = 'new_world.world'
+  world_file_name = 'ilkel_harita.world'
   world_path = os.path.join(pkg_share, 'worlds', world_file_name)
  
   headless = LaunchConfiguration('headless')
