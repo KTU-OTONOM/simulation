@@ -86,9 +86,9 @@ def generate_launch_description():
     name='gazebo_ros',
     output='screen',
     arguments=[
-      '-x','29.0' ,
-      '-y' ,'29.25' ,
-      '-z', '0.5',
+      '-x','22.0' ,
+      '-y' ,'28.7' ,
+      '-z', '0.05',
       '-Y' ,'3.14',
       '-topic' , 'robot_description',
       '-entity', 'via',
