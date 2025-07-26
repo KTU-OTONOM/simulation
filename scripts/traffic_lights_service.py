@@ -111,8 +111,8 @@ class TrafficLightsService(Node): #MODIFY NAME
         request_spawn.name="traffic_light_red"+index        
         
         self.get_logger().info("Traffic Lights client has finished")
-        
         #time.sleep(30)
+
         
         while True:
             request_delete.name=request_spawn.name

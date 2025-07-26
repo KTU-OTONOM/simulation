@@ -8,7 +8,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://traffic_light_green/meshes/model.dae</uri>
+            <uri>model://home/beraa/ros2_ws/src/simulation/models/traffic_light_green/meshes/model.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -17,7 +17,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://traffic_light_green/meshes/model.dae</uri>
+            <uri>model://home/beraa/ros2_ws/src/simulation/models/traffic_light_green/meshes/model.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
