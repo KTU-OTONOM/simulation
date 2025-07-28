@@ -48,6 +48,7 @@ install(DIRECTORY
 install(PROGRAMS
   scripts/traffic_lights_service.py
   scripts/control_node.py
+  scripts/control_node_dolly.py
   scripts/camera_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
