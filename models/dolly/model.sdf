@@ -29,8 +29,10 @@
  
       <!-- Planar movement için plugin -->
       <plugin name="planar_move" filename="libgazebo_ros_planar_move.so">
-        <body_name>base_link</body_name>
-        <cmd_vel_topic>cmd_vel1</cmd_vel_topic>  <!-- BURADA FARKLI TOPIC -->
+        <body_name>base_link</body_name>      
+        <ros>
+        	<remapping>cmd_vel:=cmd_vel1</remapping>
+      </ros>
       </plugin>
     </link>
   </model>
