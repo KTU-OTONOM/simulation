@@ -28,12 +28,11 @@
       </inertial>
  
       <!-- Planar movement için plugin -->
-      <plugin name="planar_move" filename="libgazebo_ros_planar_move.so">
-        <body_name>base_link</body_name>      
-        <ros>
-        	<remapping>cmd_vel:=cmd_vel1</remapping>
-      </ros>
+      <plugin name="dolly_mover" filename="libmodel_push.so">
+         <target_link>base_link_dolly</target_link>
+          <velocity>0.5</velocity>
       </plugin>
+      
     </link>
   </model>
 </sdf>
