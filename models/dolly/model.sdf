@@ -28,9 +28,10 @@
       </inertial>
  
       <!-- Planar movement için plugin -->
-      <plugin name="dolly_mover" filename="libmodel_push.so">
-         <target_link>base_link_dolly</target_link>
-          <velocity>0.5</velocity>
+      <plugin name="dolly_mover" filename="/home/beraa/ros2_ws/build/model_push_plugin/libmodel_push.so">
+         <velocity>2.0</velocity>
+         <min_x>-5.0</min_x>
+         <max_x>5.0</max_x>
       </plugin>
       
     </link>

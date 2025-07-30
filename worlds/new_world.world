@@ -1393,25 +1393,43 @@
     </gui>
     
     
-       
-     <include>
-       <uri>model://dolly</uri>
-       <name>dolly_0deg</name>
-       <pose>-38.903766 -0.396567 0.049751 -0.000308 0.003907 1.583043</pose>
-     </include>
+    <model name="dolly_0deg">
+      <pose>-38.903766 -0.396567 0.049751 -0.000308 0.003907 1.583043</pose>
+      <static>false</static>
+      <include>
+        <uri>model://dolly</uri>
+      </include>
+
+      <plugin name="dolly_mover" filename="libmodel_push.so">
+        <velocity>0.5</velocity>
+      </plugin>
+    </model>
+
+
+    <model name="dolly_15deg">
+      <pose>-14.355770 -27.811794 0.049744 -0.000316 0.003875 2.959544</pose>
+      <static>false</static>
+      <include>
+        <uri>model://dolly</uri>
+      </include>
+
+      <plugin name="dolly_mover" filename="libmodel_push.so">
+        <velocity>0.5</velocity>
+      </plugin>
+    </model>
      
-     <include>
-       <uri>model://dolly</uri>
-       <name>dolly_15deg</name>
-       <pose>-14.355770 -27.811794 0.049744 -0.000316 0.003875 2.959544</pose>
-     </include>
-     
-     <include>
-       <uri>model://dolly</uri>
-       <name>dolly_30deg</name>
-       <pose>19.7 -2 0.1 0 0 -2.12</pose>
-     </include>     
-          
+    <model name="dolly_30deg">
+      <pose>19.7 -2 0.1 0 0 -2.12</pose>
+      <static>false</static>
+      <include>
+        <uri>model://dolly</uri>
+      </include>
+
+      <plugin name="dolly_mover" filename="libmodel_push.so">
+        <velocity>0.5</velocity>
+      </plugin>
+    </model>  
+        
     
   </world>
 </sdf>
