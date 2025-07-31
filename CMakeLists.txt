@@ -22,7 +22,7 @@ include_directories(include)
 include_directories(simulation)
 
 
-install (DIRECTORY launch worlds simulation scripts meshes urdf
+install (DIRECTORY launch worlds simulation scripts
   DESTINATION share/${PROJECT_NAME}
 )
 
