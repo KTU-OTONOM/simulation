@@ -58,6 +58,9 @@ class ControlNode(Node): #MODIFY NAME
                 if key=="\x03":
                     break
 
+            msg.angular.z = round(msg.angular.z, 3)
+            msg.linear.x = round(msg.linear.x, 3)
+
             self.publisher_.publish(msg)
             termios.tcsetattr(sys.stdin, termios.TCSADRAIN, self.settings)
 
