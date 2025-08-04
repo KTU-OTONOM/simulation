@@ -1,0 +1,8 @@
+cv_bridge==3.2.1
+gazebo_msgs==3.9.0
+geometry_msgs==4.2.4
+launch_ros==0.19.8
+numpy==1.21.5
+opencv_python==4.11.0.86
+rclpy==3.3.15
+sensor_msgs==4.2.4
