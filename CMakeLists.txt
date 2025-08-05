@@ -22,7 +22,7 @@ include_directories(include)
 include_directories(simulation)
 
 
-install (DIRECTORY launch worlds simulation scripts meshes urdf
+install (DIRECTORY launch worlds simulation scripts
   DESTINATION share/${PROJECT_NAME}
 )
 
@@ -48,6 +48,7 @@ install(DIRECTORY
 install(PROGRAMS
   scripts/traffic_lights_service.py
   scripts/control_node.py
+  scripts/control_node_dolly.py
   scripts/camera_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
